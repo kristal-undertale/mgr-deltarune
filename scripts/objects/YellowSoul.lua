@@ -115,10 +115,6 @@ function YellowSoul:draw()
 end
 
 function YellowSoul:onRemoveFromStage(stage)
-    if super.onRemoveFromStage then
-        super.onRemoveFromStage(self, stage)
-    end
-
     if self.charge_sfx then
         self.charge_sfx:stop()
         self.charge_sfx = nil
