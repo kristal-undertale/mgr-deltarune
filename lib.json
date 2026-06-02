@@ -1,0 +1,25 @@
+{
+    "id": "mgr-deltarune",
+    "dependencies": ["magical-glass", "mgr-souls"],
+
+    "authors": [
+        "Nyakorita",
+        "Sam Deluxe",
+        "FireRainV",
+        "Azrael",         // Susie Light World Battle Sprites
+        "vitellary"       // Yellow Soul
+    ],
+
+    "version": "v1.0.0",
+    "engineVer": "v0.10.0-dev",
+    "default": true,
+
+    "config": {
+
+        ///// Yellow Soul BIGSHOT Cheat
+        // Whether you're allowed to use the bug where you can chain BIGSHOTs
+        // rapidly by pressing the confirm button while holding another confirm button.
+        /////
+        "yellow_soul_allowcheat": true
+    }
+}
